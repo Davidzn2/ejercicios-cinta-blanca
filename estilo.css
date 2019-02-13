@@ -1,0 +1,33 @@
+body{
+    background-image: url('imagenes/gatito.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    color:aqua;  
+    border: solid 2px purple;
+    font-family: 'Roboto', 'sans-serif';
+}   
+li{
+    color:magenta;
+    border: solid 2px green;
+}
+.listas{
+    /* background-color:skyblue; */
+}
+#animales{
+    font-size: 22px;
+    border: solid 2px black;
+}
+#equipo{
+    font-size:32px;
+    border: solid 2px red;
+}
+#contacto{
+    /* background-color: coral; */
+}
+footer{
+    text-transform: capitalize;
+    border: solid 2px magenta;
+}
