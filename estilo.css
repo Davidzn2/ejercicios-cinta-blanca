@@ -6,28 +6,61 @@ body{
 }
 h1{
     color:aqua;  
-    border: solid 2px purple;
+    /* border: solid 2px purple; */
     font-family: 'Roboto', 'sans-serif';
 }   
 li{
     color:magenta;
-    border: solid 2px green;
+    /* border:  solid 2px green; */
+}
+nav li{
+    list-style-type: none;
+    display: inline;
+    padding: 0 20px;
+    margin: 0 20px;
+    font-size:22px;
 }
 .listas{
     /* background-color:skyblue; */
 }
 #animales{
     font-size: 22px;
-    border: solid 2px black;
+    /* border: solid 2px black; */
+    width:50%;
+    float:right;
+}
+#animales h1{
+    color:aqua; 
+}
+#animales h1:hover{
+    color:purple;
 }
 #equipo{
     font-size:32px;
-    border: solid 2px red;
+    /* border: solid 2px red; */
+    width:50%;
+    float:left;
 }
 #contacto{
     /* background-color: coral; */
+    width:100%;
 }
 footer{
     text-transform: capitalize;
-    border: solid 2px magenta;
+    /* border: solid 2px magenta; */
+}
+p{
+    font-size:20px;
+}
+#animales p{
+    font-size:16px;
+}
+#equipo p{
+    font-size:18px;
+}
+section p{
+    color:white;
+}
+div p{
+    color:yellow;
 }
