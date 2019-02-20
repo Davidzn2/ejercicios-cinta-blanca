@@ -5,6 +5,11 @@ console.log(numero + nombre)
 var persona = prompt("Por favor mete tu nombre", "Harry Potter");
 
 alert("Hola " + persona + "! ¿Como estas?" + " " + persona)
-var str = "Hello World!";
-var res = str.toUpperCase();
-alert(res)
+var str = "hElLo WorLd!";
+var cont = str.length
+console.log(cont)
+var res = str.charAt(0);
+var loDemas = str.slice(1, cont)
+
+var total = res.toLocaleUpperCase() + loDemas.toLowerCase()
+console.log(total)
