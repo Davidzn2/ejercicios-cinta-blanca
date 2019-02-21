@@ -11,5 +11,5 @@ console.log(cont)
 var res = str.charAt(0);
 var loDemas = str.slice(1, cont)
 
-var total = res.toLocaleUpperCase() + loDemas.toLowerCase()
+var total = res.toUpperCase() + loDemas.toLowerCase()
 console.log(total)
