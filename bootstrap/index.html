@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="bg-dark ">
+            <ul class="nav nav-tabs ">
+                <li class="nav-item"><img height="40" src="https://devf-website-staging.s3.amazonaws.com/static/assets/img/logodevf.65819eb.png" alt=""></li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Quienes Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container espacio">
+        <h1>Mis mascotas favoritas</h1>
+        <h3>En esta página voy a ponerles a mis mascotas favoritas! Wiii</h3>
+    </div>
+
+    <div class="container espacio">
+        <div class="perros">
+            <h2>Estos son perritos WAF</h2>
+            <img id="imagenDelPerrito" class="img-fluid float-left rounded thumb" src="http://as01.epimg.net/epik/imagenes/2018/04/28/portada/1524913221_572475_1524913364_noticia_normal.jpg" alt="">
+            <img id="" class="img-fluid float-right rounded thumb" src="http://as01.epimg.net/epik/imagenes/2018/04/28/portada/1524913221_572475_1524913364_noticia_normal.jpg" alt="">
+        </div> 
+        
+        <div class="gatos text-center">
+            <h2>Esto es un gatito MIAU</h2>
+            <img class="img-fluid rounded-circle thumb" src="https://media.metrolatam.com/2018/08/08/gato-961810f0016f725a96537f67bc3b6f8c-1200x800.jpg" alt="">
+        </div>
+        
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                YO SOY 2 COLUMNAS
+            </div>
+            <div class="col-xs-12 col-md-6">
+                YO SOY 2 COLUMNAS
+            </div>
+            
+        </div>
+    </div>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalito">
+        Launch demo modal
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="modalito" >
+        <div class="modal-dialog" >
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Bienvenidos</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+               
+              </button>
+            </div>
+            <div class="modal-body">
+                Aqui veras a mi gatito favorito y a mi perrito favorito 
+                <img class="thumbnail mini float-left" src="https://media.metrolatam.com/2018/08/08/gato-961810f0016f725a96537f67bc3b6f8c-1200x800.jpg" alt="">
+                <img class="thumbnail mini float-right" src="http://as01.epimg.net/epik/imagenes/2018/04/28/portada/1524913221_572475_1524913364_noticia_normal.jpg" alt="">
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Gracias por ver a mi gatito</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="container-fluid espacio">
+        <form action="">
+            <div class="form-group">
+                <input class="form-control" type="text" placeholder="Nombre">
+                <input class="form-control" type="mail" placeholder="Correo Electronico">
+                <input class="form-control" type="number" placeholder="Telefono">
+                <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn btn-primary">
+
+            </div>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
