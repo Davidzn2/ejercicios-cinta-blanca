@@ -10,6 +10,7 @@
 // console.log(suma(4,2))
 
 function minian(edad, genero){
+
     if (edad >= 13 && genero == "Hombre"){
         var cuenta = true
     } else{
@@ -22,9 +23,13 @@ function minian(edad, genero){
     }
     return a
 }
-var Joe = [13, "Hombre"]
-console.log("Joe: "+ minian(Joe[0], Joe[1]))
+
+var edadJaim = 10
 var David = minian(13,"Hombre")
-var Jaim = minian(10, "Hombre")
+var Jaim = minian(edadJaim, "Hombre")
 var Moshe = minian(22, "Hombre")
 var Batia = minian(18, "Mujer")
+console.log(Jaim)
+edadJaim = 13
+Jaim = minian(edadJaim, "Hombre")
+console.log(Jaim)
