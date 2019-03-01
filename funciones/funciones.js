@@ -9,7 +9,7 @@
 // }
 // console.log(suma(4,2))
 
-function minian(edad, genero){
+function minian(edad, genero, nombre){
 
     if (edad >= 13 && genero == "Hombre"){
         var cuenta = true
@@ -17,19 +17,31 @@ function minian(edad, genero){
         var cuenta = false
     }
     if(cuenta==true){
-        var a = "Felicidades campeon cuentas para minian, Jazak U Baruj"
+        var a = "Felicidades "+ nombre +" cuentas para minian, Jazak U Baruj"
     }else{
         var a = "Perdon, no cuentas para minian"
     }
     return a
 }
 
-var edadJaim = 10
-var David = minian(13,"Hombre")
-var Jaim = minian(edadJaim, "Hombre")
-var Moshe = minian(22, "Hombre")
-var Batia = minian(18, "Mujer")
-console.log(Jaim)
-edadJaim = 13
-Jaim = minian(edadJaim, "Hombre")
-console.log(Jaim)
+var David ={
+    nombre :"David",
+    genero: "Hombre",
+    edad: 23
+}
+var Jaim ={
+    nombre :"Jaim",
+    genero: "Hombre",
+    edad: 12
+}
+var Juan ={
+    nombre :"Juan",
+    genero: "Hombre",
+    edad: 13
+}
+var Pepe ={
+    nombre :"Pepe",
+    genero: "Hombre",
+    edad: 18
+}
+console.log(minian(David.edad, David.genero, David.nombre))

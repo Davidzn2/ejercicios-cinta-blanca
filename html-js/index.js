@@ -12,3 +12,4 @@ function mostrar(){
 
 }
 boton.addEventListener('click', mostrar)
+
